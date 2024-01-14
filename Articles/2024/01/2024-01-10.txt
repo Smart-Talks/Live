@@ -1,0 +1,11 @@
+Improved Image analysis with Gen AI
+
+With the introduction of Gen AI and ChatGPT, my focus shifted towards its industrial application. As we start building some experience with real-life use cases, it's becoming clearer now that the most value you can get out of it is if you build a sort of pipeline around it that processes your data in multiple steps. Here, you have LLM perform individual isolated "supervised" tasks rather than letting it do the whole thing end-to-end in one shot.
+
+The simplest example I came up with yesterday in one of my use cases is running the LLM to explain the output of image recognition and classification.
+
+I explain it a little more in my short article.
+
+https://dev.to/eugenius/improved-picture-analysis-with-gen-ai-3b19
+
+http://bit.ly/48LTWlB
