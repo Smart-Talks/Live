@@ -1,0 +1,18 @@
+Really interesting article from Microsoft explaining some guts of a combination of Azure Search and Gen AI.
+
+If you use Azure Open AI you probably saw similar feature available out-of-the-box, where you can provide a set of files or a container and it will digest it for you enabling you to "talk to your data". It has a repo link in it too.
+
+While there might be very little value in taking and implementing this code directly, it might be very useful from Architectural, Software Engineering, and Prompt Engineering standpoints, regardless of the LLM brand or Version you are using (whether it's Google Bard / Gemini, Open AI native implementation or Microsoft Open AI / Copilot, Amazon Bedrock, Meta AI, Anthropic’s Claude, Cohere’s Command, etc.)
+
+I would specifically suggest looking into these few files in the repo in azure-search-openai-demo/app/backend/approaches folder:
+chatapproach.py
+chatreadretrieveread.py
+chatreadretrievereadvision.py
+retrievethenread.py
+retrievethenreadvision.py
+
+Those have text prompts for the data processing that you can leverage when building your own workflows.
+
+https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/revolutionize-your-enterprise-data-with-chatgpt-next-gen-apps-w/ba-p/3762087
+
+https://lnkd.in/dyyAYvvf
